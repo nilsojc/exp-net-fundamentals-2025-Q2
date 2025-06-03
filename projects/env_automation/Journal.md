@@ -1,6 +1,6 @@
 ## VPC Settings
 
-These are the vpc settings we observed tim set up for our cloud environment in AWS 
+These are the vpc settings we observed tim set up for our cloud environment in AWS:
 
 - VPC IPv4 CIDR Block: 10.200.123.0/24
 - Ipv6 CIDR Block: No

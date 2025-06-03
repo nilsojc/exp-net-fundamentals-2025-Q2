@@ -14,6 +14,6 @@ cd projects/env_automation
 chmod u+x ./bin/deploy
 ./bin/deploy
 ```
-> you only to have th echmod the file once to make it executable.
+> you only to have to chmod the file once to make it executable.
 
 
