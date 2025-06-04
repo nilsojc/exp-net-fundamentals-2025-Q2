@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "vmName": {
+      "value": "net-fun-windows-server"
+    },
+    "adminUsername": {
+      "value": "adminuser"
+    },
+    "adminPassword": {
+      "value": "Testing123456"
+    },
+    "vmSize": {
+      "value": "Standard_D2alds_v6"
+    },
+    "osDiskType": {
+      "value": "Premium_LRS"
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "vnetName": {
+      "value": "net-fun-windows-server-vnet"
+    },
+    "addressPrefixes": {
+      "value": ["10.0.0.0/16"]
+    },
+    "subnetPrefix": {
+      "value": "10.0.0.0/24"
+    },
+    "publicIpSku": {
+      "value": "Standard"
+    },
+    "publicIpType": {
+      "value": "Static"
+    },
+    "nsgName": {
+      "value": "net-fun-windows-server-nsg"
+    },
+    "imagePublisher": {
+      "value": "MicrosoftWindowsDesktop"
+    },
+    "imageOffer": {
+      "value": "windows11preview-arm64"
+    },
+    "imageSku": {
+      "value": "win11-22h2-pro"
+    },
+    "imageVersion": {
+      "value": "latest"
+    }
+  }
+}
