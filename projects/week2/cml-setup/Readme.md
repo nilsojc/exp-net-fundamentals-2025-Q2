@@ -6,4 +6,13 @@
 
 Make sure to download the .ova file and the .iso file.
 
+`https://software.cisco.com/download/home/286193282/type/286326381/release/CML-Free`
+
 - .ova file is for importing settings of creation of the new virtual machine on VMware workstation.
+- .iso file is for mounting the operating system unto the VM. 
+
+![](assets/cml.png)
+
+## Lab Example on CML 
+
+![](assets/lab.png)
