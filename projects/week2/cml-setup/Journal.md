@@ -19,3 +19,16 @@ I accesed the Switch command line through the CML seb service, to check the stat
 enable
 show int status
 ```
+
+We can also check the main configuration of the IP address management (In this case DHCP)
+```sh
+sh run | s dhcp
+```
+
+The ubuntu box from the lab can also show the CIDR with `ip addr` from the command line.
+
+I discovered that by doing a traceroute command on the router command line the router goes to a network passthrough on my windows machine.
+
+```
+traceroute 8.8.8.8 numeric timeout 1 ttl 1 10
+```
