@@ -108,3 +108,5 @@ Tunnel1                169.254.243.142 YES manual up                    down
 
     ![](assets/nodes.png)
 
+- Due to these limitations, I had to do some workarounds within the protocol policies to import the site-to-site vpn configuration, which surprisingly worked pretty well.
+- The amount of knowledge even with multiple errors were of significant value.
