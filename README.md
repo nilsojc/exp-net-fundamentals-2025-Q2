@@ -27,21 +27,46 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 ## Technical Video Demostration
 
+# Week 1 
+
 ```sh
 <Video Demo>
 ```
-
+# Week 2
 
 ## Technical Diagram
 
 ```sh
-<Technical Diagram>
+                   +----------------------------------------+
+                   |             Plex Server                |
+                   |   Host IP: 192.168.1.120:32400         |
+                   |   Tailscale IP: 100.100.0.1:32400      |
+                   +------------------+---------------------+
+                                      |
+                                      v
+                    +----------------------------------------+
+                    |           Tailscale VPN Mesh           |
+                    |   Access Point: 100.100.0.1            |
+                    |   Shares Plex access across network    |
+                    +------------------+---------------------+
+                                      |
+          +---------------------------+-------------------------------+
+          |                                                           |
+          v                                                           v
++-----------------------------+                       +--------------------------------+
+|        NVIDIA Shield        |                       |          Prowlarr              |
+| Tailscale IP: 100.100.0.2   |                       | Docker IP: 172.18.0.2:9696     |
+| Connects to Plex:           |                       | Exposed via Gluetun            |
+|        100.100.0.1:32400    |                       +---------------+----------------+
++-----------------------------+                                       |
+                                                                     v
+                    +--------------------------+------------------------------+
+                    |        Media Management Tools (via Gluetun)             |
+                    |---------------------------------------------------------|
+                    |   Radarr                  |    Sonarr                   |
+                    | Docker IP: 172.18.0.3:7878 | Docker IP: 172.18.0.4:8989 |
+                    | via Gluetun VPN @ 172.18.0.1                            |
+                    +---------------------------------------------------------+
+
 ```
 
-- [Technical Justification Journal]()
-
-## Journal
-- [Lesson 1]()
-- [Lesson 2]()
-- [Lesson 3]()
-- [Lesson 4]()
