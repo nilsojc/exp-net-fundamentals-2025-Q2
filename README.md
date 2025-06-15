@@ -28,13 +28,14 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 ## Technical Video Demostration
 
 ### Week 1
-```sh
-<Video Demo>
-```
+
+[![Networking Bootcamp Week 1](https://img.youtube.com/vi/kS5CNbLybD4/0.jpg)](https://www.youtube.com/watch?v=kS5CNbLybD4)
+
+
 ### Week 2
 
 ```sh
-
+<video here>
 ```
 
 ## Technical Diagram for Capstone Project
