@@ -1,4 +1,4 @@
-# exp-net-fundamentals-2025-Q2
+# Networking Fundamentals Bootcamp 2025
 
 This repository documents the Networking Fundamentals bootcamp organized by Andrew Brown and Tim McConnaughy, where we focus on firewall rules, response between different networks, comprehensive networking of linux and windows operating systems, tracing of packets, proxies and connections in real-world scenarios.
 
@@ -27,14 +27,17 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 ## Technical Video Demostration
 
-# Week 1 
-
+### Week 1
 ```sh
 <Video Demo>
 ```
-# Week 2
+### Week 2
 
-## Technical Diagram
+```sh
+
+```
+
+## Technical Diagram for Capstone Project
 
 ```sh
                    +----------------------------------------+
@@ -70,3 +73,16 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 ```
 
+- [Technical Justification Journal](journal/week1/diagramming/Journal.md)
+
+## Labs and Proof of Work
+- [Week 1](projects/week1)
+- [Week 2](projects/week2)
+
+
+## Required Resources and Platforms
+- Cloud: AWS, Azure, GCP.
+- Development Tools: Github Codespaces, Vscode.
+- Cisco Tools: Cisco Modeling Labs, Packet Tracer.
+- Networking Software: Vshark
+- Operating Systems: Windows 11 Server, Ubuntu, Red Hat.

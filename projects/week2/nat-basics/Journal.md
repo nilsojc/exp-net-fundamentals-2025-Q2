@@ -15,3 +15,8 @@ Local router displayed `nat inside` while the external connector displayed `nat 
 I then ran a packet capture between the router and the switch. 
 
 When pinging `8.8.8.8` the packet capture on CISCO shows the `ICMP` `LOOP` along with the `source` and `destination` IP's which is the main key when getting into nat connectivity.
+
+## Final Observations 
+
+Within this lab we observed how the packets get received and sent through the ICMP protocol from the external connector and also from the VM Network adapter with `Vshark` which really has it's own nuances but overall a very straight-forward way to learn about ip mapping from one source to the other. 
+
