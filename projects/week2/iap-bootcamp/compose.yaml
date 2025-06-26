@@ -1,0 +1,28 @@
+services:
+  pomerium:
+    image: pomerium/pomerium:v0.29.4
+    ports:
+      - 443:443
+    restart: always
+    environment:
+      POMERIUM_ZERO_TOKEN: AMf-vByLM47q1LhshdjEgZxbYnTHBP8ffKElbCGlmNIywVIZQlvwqIN6xsib-5agAb0w8gArH_g6zPvs4oLuDwoJ-tkXqk7deezjH1RIIJPvfmWitfiqqv0Bsnzu3AoJxVuGFzEn3cuZDluThXMJjAlfY61ehaDO-8kRcqw1fhICocGw_TEgjvBasRR74oqawfXY9ExsMvuc
+      XDG_CACHE_HOME: /var/cache
+    volumes:
+      - pomerium-cache:/var/cache
+    networks:
+      main:
+        aliases:
+          - verify.vocal-mako-6454.pomerium.app
+  verify:
+    image: pomerium/verify:latest
+    networks:
+      main:
+        aliases:
+          - verify
+
+networks:
+  main: {}
+
+volumes:
+  pomerium-cache:
+      
