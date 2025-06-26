@@ -5,14 +5,14 @@ services:
       - 443:443
     restart: always
     environment:
-      POMERIUM_ZERO_TOKEN: AMf-vByLM47q1LhshdjEgZxbYnTHBP8ffKElbCGlmNIywVIZQlvwqIN6xsib-5agAb0w8gArH_g6zPvs4oLuDwoJ-tkXqk7deezjH1RIIJPvfmWitfiqqv0Bsnzu3AoJxVuGFzEn3cuZDluThXMJjAlfY61ehaDO-8kRcqw1fhICocGw_TEgjvBasRR74oqawfXY9ExsMvuc
+      POMERIUM_ZERO_TOKEN: AMf-vBzhSOSIG6tDl_biNeL53j3M-G8EaY6a8KUxCgbc-BpuovUP_VvPgG-rkvWr4YX1JuyNq_YZ8ZLSjNyXkTUPKwCAs6SD8hFf_68BOmyHRJjh9Qht_3o9BeQrRWtqPO_x6P1GGDVNfnSMXxd6FME7rHCAks6x7gM7EVSrBXzi_hKC1wBQ1H5ddBJeaQUAuiCxjs39kGaL
       XDG_CACHE_HOME: /var/cache
     volumes:
       - pomerium-cache:/var/cache
     networks:
       main:
         aliases:
-          - verify.vocal-mako-6454.pomerium.app
+          - verify.real-bluejay-5820.pomerium.app
   verify:
     image: pomerium/verify:latest
     networks:
