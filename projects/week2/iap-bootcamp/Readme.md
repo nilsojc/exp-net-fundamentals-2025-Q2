@@ -33,3 +33,5 @@ We can also create policies, which can manage who gets access to the proxy.
 
 ![](assets/policies.png)
 
+
+You can integrate this point of access on applications that can be both deployed on-prem and in the cloud.
