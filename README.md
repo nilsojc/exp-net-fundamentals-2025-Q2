@@ -1,10 +1,15 @@
-# Networking Fundamentals Bootcamp 2025
+# 🛜 Exp-net-fundamentals-2025-Q2 🛜
+
 
 This repository documents the Networking Fundamentals bootcamp organized by Andrew Brown and Tim McConnaughy, where we focus on firewall rules, response between different networks, comprehensive networking of linux and windows operating systems, tracing of packets, proxies and connections in real-world scenarios.
 
-## Repository Structure
+## 📂  Repository Structure 📂
 
 ```
+├── journal/
+     ├── week1
+         ├── diagramming
+             ├── Journal.md    # Diagramming Overview for Networking Capstone Project
 ├── README.md                  # Repo overview of Networking Fundamentals Bootcamp
 ├── projects/                  # All implementation labs and projects of the bootcamp
 │    ├── week1                 # Linux, Windows Firewall Rules and Networking
@@ -23,9 +28,10 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 │        ├──reverse-proxy
 │        ├──vpn
 │        ├──vshark-traffic
+│        ├──iap-bootcamp
 ```
 
-## Technical Video Demostration
+## Technical Video Demostration Overview 📽️
 
 ### Week 1
 
@@ -34,11 +40,10 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 ### Week 2
 
-```sh
-<video here>
-```
+[![Networking Bootcamp Week 2](https://img.youtube.com/vi/JujQERkZcxk/0.jpg)](https://www.youtube.com/watch?v=JujQERkZcxk)
 
-## Technical Diagram for Capstone Project
+
+## 📃 Technical Diagram for Capstone Project 📃
 
 ```sh
                    +----------------------------------------+
@@ -73,6 +78,11 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
                     +---------------------------------------------------------+
 
 ```
+
+### Diagramming Overview Video
+
+[![Networking Bootcamp Diagramming](https://img.youtube.com/vi/tIXkSvRJyno/0.jpg)](https://www.youtube.com/watch?v=tIXkSvRJyno)
+
 
 - [Technical Justification Journal](journal/week1/diagramming/Journal.md)
 
