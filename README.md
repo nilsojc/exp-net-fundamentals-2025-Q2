@@ -39,8 +39,8 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 
 ### Week 2
-
-[![Networking Bootcamp Week 2](https://img.youtube.com/vi/JujQERkZcxk/0.jpg)](https://www.youtube.com/watch?v=JujQERkZcxk)
+tIXkSvRJyno
+[![Networking Bootcamp Week 2](https://img.youtube.com/vi/tIXkSvRJyno/0.jpg)](https://www.youtube.com/watch?v=tIXkSvRJyno)
 
 
 ## 📃 Technical Diagram for Capstone Project 📃
@@ -81,7 +81,7 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 ### Diagramming Overview Video
 
-[![Networking Bootcamp Diagramming](https://img.youtube.com/vi/tIXkSvRJyno/0.jpg)](https://www.youtube.com/watch?v=tIXkSvRJyno)
+[![Networking Bootcamp Diagramming](https://img.youtube.com/vi/JujQERkZcxk/0.jpg)](https://www.youtube.com/watch?v=JujQERkZcxk)
 
 
 - [Technical Justification Journal](journal/week1/diagramming/Journal.md)
