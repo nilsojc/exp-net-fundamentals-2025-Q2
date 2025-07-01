@@ -39,7 +39,7 @@ This repository documents the Networking Fundamentals bootcamp organized by Andr
 
 
 ### Week 2
-tIXkSvRJyno
+
 [![Networking Bootcamp Week 2](https://img.youtube.com/vi/tIXkSvRJyno/0.jpg)](https://www.youtube.com/watch?v=tIXkSvRJyno)
 
 
